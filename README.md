@@ -11,10 +11,10 @@
 ## Formulation
 ![MVU](readme_imgs/Formulation.png)
 
-Maximum variance unfolding (MVU), also known as semi-definite embedding,is a non-linear dimension reduction technique.  It can be viewed as nonlineargeneralization of the linear dimension reduction technique, principal componentanalysis (PCA). Like many dimension reduction algorithms, MVU looks to maphigh dimensional inputs to low dimensional outputs. The visual intuition behindMVU is this idea we connect neighboring points in the high dimensional space byrigid rods.  The amount of connections or number of rods is a chosen parameter(k)  we  will  discuss  later  on.   With  that  said,  the  points  connected  to  their  kclosest neighbors creates this lattice like structure.  MVU can be seen as pullingthis structure apart and flattening the structure without breaking or stretchingthe rigid rods.  In other words, MVU looks to maximize the pairwise distancesbetween input points subject to the constraints of maintaining the distances ofthese local rigid connections 
+Maximum variance unfolding (MVU), also known as semi-definite embedding, is a non-linear dimension reduction technique.  It can be viewed as nonlinear generalization of the linear dimension reduction technique, principal component analysis (PCA). Like many dimension reduction algorithms, MVU looks to map high dimensional inputs to low dimensional outputs. The visual intuition behind MVU is this idea we connect neighboring points in the high dimensional space by rigid rods.  The amount of connections or number of rods is a chosen parameter (k)  we  will  discuss  later  on.   With  that  said,  the  points  connected  to  their  k closest neighbors creates this lattice like structure.  MVU can be seen as pulling this structure apart and flattening the structure without breaking or stretching the rigid rods. In other words, MVU looks to maximize the pairwise distances between input points subject to the constraints of maintaining the distances of these local connections.  
 
 ## Data
-
+![MVU_Data](readme_imgs/TeaPot_key.png)
 
 ## Implementation
 
