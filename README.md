@@ -19,6 +19,8 @@ Maximum variance unfolding (MVU), also known as semi-definite embedding, is a no
 The teapot data set contains a 400 image sequence of a teapot being slowly rotated in a circle.  Each rgb image in the data set has 76x101x3 = 23,028 pixels or dimensions. Above is shows the 0th, 100th, 200th, 300th teapot indexes.  
 
 ## Implementation
+
+#### PCA:
 ![PCA](readme_imgs/PCA_TeaPot.png)
 
 For sake of comparison we start by implementing PCA on the data.  Above you can see an issue PCA has.  PCA appears to struggle in discerning the difference between the handle and spout of the teapot.  In the 2D displayed projection these rotations are appear to be together.
