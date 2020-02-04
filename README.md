@@ -23,7 +23,7 @@ The teapot data set contains a 400 image sequence of a teapot being slowly rotat
 #### PCA projection of 400 teapot images:
 ![PCA](readme_imgs/PCA_TeaPot.png)
 
-For sake of comparison we start by implementing PCA on the data.  Above you can see an issue PCA has.  PCA appears to struggle in discerning the difference between the handle and spout of the teapot.  In the 2D displayed projection these rotations are appear to be together.
+For sake of comparison we start by implementing PCA on the data.  Above you can see an issue PCA has.  PCA appears to struggle in discerning the difference between the handle and spout of the teapot.  In the 2D displayed projection these rotations appear to be grouped together.
 
 #### MVU projection of 400 teapot images with k=4, L=120:
 ![MVU_check](readme_imgs/MVU_TeaPot.png)
