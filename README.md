@@ -1,5 +1,5 @@
 # Maximum-Variance-Unfolding
-#### Name: Sam Longenbach & Caleb Ralphs
+### Name: Sam Longenbach & Caleb Ralphs
 
 #### Files:
 - **MVU_Teapot_Code.ipynb** - *Code to implement landmark MVU on teapot dataset varying (k) nearest neighbors and (L) landmarks.*
@@ -28,7 +28,7 @@ For sake of comparison we start by implementing PCA on the data.  Above you can 
 #### MVU projection of 400 teapot images with k=4, L=120:
 ![MVU_check](readme_imgs/MVU_TeaPot.png)
 
-Below we tested varying the initial number of knearest neighbors (k) and varying landmarks (L). When  the  correct  parameters (k) and (L) are  found,  MVU  excels  at  finding the underlying dimension of the teapot images that being a circle. 
+Below we tested varying the initial number of nearest neighbors (k) and varying landmarks (L). When  the  correct  parameters (k) and (L) are  found,  MVU  excels  at  finding the underlying dimension of the teapot images that being a circle. 
 
 ####  MVU projection of fixing k=4, and varying L:
 ![MVU_check](readme_imgs/Vary_L.png)
@@ -36,3 +36,4 @@ Below we tested varying the initial number of knearest neighbors (k) and varying
 ####  MVU projection of fixing L=120, and varying k:
 ![MVU_check](readme_imgs/Vary_k.png)
 
+For more details on mathmatical derivation, summary of implementation, and discussion refer to code & report. 
