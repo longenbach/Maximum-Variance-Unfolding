@@ -16,7 +16,7 @@ Maximum variance unfolding (MVU), also known as semi-definite embedding, is a no
 ## Data
 ![MVU_Data](readme_imgs/TeaPot_key.png)
 
-The teapot data set contains a 400 image sequence of a teapot being slowly rotated in a circle.  Each rgb image in the data set has 76x101x3 = 23,028 pixels or dimensions. Above is shows the 0th, 100th, 200th, 300th teapot indexes.  
+The teapot data set contains a 400 image sequence of a teapot being slowly rotated in a circle.  Each rgb image in the data set has 76x101x3 = 23,028 pixels or dimensions. 
 
 ## Implementation
 
